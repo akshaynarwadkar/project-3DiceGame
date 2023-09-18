@@ -9,7 +9,7 @@ const RoleDice = ({ currentDice, RollDice, resetScore }) => {
 
   return (
     <CenterContent>
-      <img onClick={RollDice} src={`public/assets/images/dice_${x}.png`}></img>
+      <img onClick={RollDice} src={`./assets/images/dice_${x}.png`}></img>
       <p>Click on dice to roll</p>
       <Button onClick={resetScore}>Reset Score</Button>
       <Button onClick={() => setShowRules(!showRules)} isRule>

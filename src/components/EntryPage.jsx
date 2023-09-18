@@ -3,7 +3,7 @@ import styled from "styled-components";
 const EntryPage = ({ toggle }) => {
   return (
     <Container>
-      <img src="public/assets/images/dices1.png"></img>
+      <img src="./assets/images/dices1.png"></img>
       <div className="heading">
         <h1>DICE GAME</h1>
         <Button onClick={toggle}>Play Now</Button>
